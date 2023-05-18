@@ -1,5 +1,6 @@
 # This is a version of the main.py file found in ../../../server/main.py for testing the plugin locally.
 # Use the command `poetry run dev` to run this.
+poetry run dev
 from typing import Optional
 import uvicorn
 from fastapi import FastAPI, File, Form, HTTPException, Body, UploadFile
